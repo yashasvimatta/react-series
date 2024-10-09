@@ -1,10 +1,11 @@
 import Test from "./test"
 
 function App() {
+  const username = "yashasvi"
   return (
       < > 
       <Test/>        
-    <h1>testing happening</h1>
+    <h1>testing by {username}</h1>    //  the parenthis is simlar to `${}`
     <p>test para</p>
     </>
   );
